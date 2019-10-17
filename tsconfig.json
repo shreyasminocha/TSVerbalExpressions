@@ -3,7 +3,7 @@
     "module": "umd",
     "outDir": "dist/",
     "esModuleInterop": true,
-    "target": "es2017",
+    "target": "es2018",
     "moduleResolution": "node"
   },
   "files": ["src/index.ts"]

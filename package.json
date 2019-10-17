@@ -32,7 +32,7 @@
     "jest": "jest",
     "lint": "tslint -c tslint.json 'src/**/*.ts' 'test/**/*.ts'",
     "test": "status=0; npm run lint || status=$?; npm run jest || status=$?; exit $status",
-    "build": "tsc"
+    "build": "rm -rf dist && tsc --declaration"
   },
   "engines": {
     "node": ">=9.2.0"
